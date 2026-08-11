@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import HeroPhoto from './HeroPhoto'
 
 const roles = ['school systems', 'revenue leaks', 'procurement chaos', 'client pipelines']
 
 export default function Hero() {
   return (
     <section id="top" className="relative min-h-screen flex flex-col justify-center px-5 md:px-10 pt-24 pb-16">
+      <HeroPhoto src="/hero.png" />
       <svg className="absolute inset-0 w-full h-full pointer-events-none" aria-hidden="true">
         <motion.line
           x1="0" y1="18%" x2="100%" y2="18%"

@@ -2,15 +2,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0E1B2B;
-  --color-panel: #131F30;
-  --color-panel-raised: #1A2A40;
-  --color-line: #6FA8DC;
-  --color-line-dim: #2E4256;
-  --color-amber: #E8A33D;
-  --color-text-primary: #EDEFF2;
-  --color-text-secondary: #8FA0B3;
-  --color-text-muted: #5C7086;
+  --color-ink: #1B2C42;
+  --color-panel: #223850;
+  --color-panel-raised: #2B4560;
+  --color-line: #7FB8EE;
+  --color-line-dim: #3D5A78;
+  --color-amber: #F0AC4A;
+  --color-text-primary: #F4F6F8;
+  --color-text-secondary: #A9BBCE;
+  --color-text-muted: #7890A6;
 
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
